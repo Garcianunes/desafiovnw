@@ -8,6 +8,7 @@ html, body{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	width: 100%;
 }
 
 body{
@@ -22,9 +23,68 @@ main{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	width: 75%;
 }
 section{
 	padding: 10px;
 	margin: 5px;
 	background: #fff;
+}
+
+.sec1{
+	width: 60%;
+}
+.sec2{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.sec2 div{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 5px;
+}
+.sec3{
+	width: 30%;
+}
+.sec3 img{
+	width: 48%;
+}
+.sec4{
+	width: 65%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sec4 div{
+	/*display: flex;*/
+	width: 45%;
+}
+.sec4 h2{
+	font-size: 17px;
+}
+.sec4 img{
+	width: 70%;
+}
+.sec5{
+	width: 40%;
+}
+.sec5 div{
+	display: flex;
+}
+.sec6{
+	width: 30%;
+}
+.sec6 div{
+	display: flex;
+}
+.sec7{
+	width: 20%;
+}
+.sec7 div{
+	display: flex;
+	flex-direction: column;
 }
