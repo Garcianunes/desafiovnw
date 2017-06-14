@@ -35,10 +35,13 @@ section{
 	width: 60%;
 }
 .sec2{
-	width: 30%;
+	width: 35%;
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+}
+.sec2 img p{
+	width: 40%;
 }
 
 .sec2 div{
@@ -48,43 +51,75 @@ section{
 	align-items: center;
 	margin: 5px;
 }
+.sec2 div p{
+	text-align: center;
+	font-size: 15px;
+}
 .sec3{
-	width: 30%;
+	width: 35%;
+	font-size: 17px;
 }
 .sec3 img{
-	width: 48%;
+	width: 49%;
+}
+.sec3 p:last-child{
+	text-align: right;
 }
 .sec4{
-	width: 65%;
 	display: flex;
 	flex-wrap: wrap;
+	width: 60%;
 }
 .sec4 div{
-	/*display: flex;*/
 	width: 45%;
 }
 .sec4 h2{
 	font-size: 17px;
 }
-.sec4 img{
-	width: 70%;
+
+.sec4 div img{
+	width: 60%;
+	position: relative;
+	top: 0;
+	left: 20px;
+}
+.sec4 div ul{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.sec4 div ul li:before{
+	content: "- ";
+}
+.sec4 h3{
+	font-size: 15px;
 }
 .sec5{
-	width: 40%;
+	width: 53%;
 }
 .sec5 div{
 	display: flex;
 }
 .sec6{
-	width: 30%;
-}
-.sec6 div{
+	width: 26%;
 	display: flex;
+	flex-direction: column;
+}
+.sec6 img{
+	width: 85%;
 }
 .sec7{
-	width: 20%;
+	width: 15%;
 }
 .sec7 div{
 	display: flex;
 	flex-direction: column;
+}
+.sec7 ul{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.sec7 ul li: before{
+	content: ". ";
 }
